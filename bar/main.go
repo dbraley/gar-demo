@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 
-	foo "github.com/dbraley/gar-demo/foo"
+	"github.com/dbraley/gar-demo/foo"
+	"github.com/dbraley/gar-demo/foo/baz"
 )
 
 func main() {
 	fmt.Println(foo.HelloWorld)
+	fmt.Println(baz.LoremIpsum)
 }
